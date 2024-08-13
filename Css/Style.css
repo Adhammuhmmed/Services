@@ -1,5 +1,4 @@
 /* HEADER */
-
 .main-color-bg {
   background-color: #f4623a;
 }
@@ -48,5 +47,9 @@ h1 {
   }
   .form {
     width: 100%;
+  }
+  .main-header {
+    position: relative;
+    padding: 10px;
   }
 }
