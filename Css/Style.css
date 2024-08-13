@@ -1,0 +1,52 @@
+/* HEADER */
+
+.main-color-bg {
+  background-color: #f4623a;
+}
+.second-color-bg {
+  background-color: #212529;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7) 0% 100%),
+    url("../assets/img/bg-masthead.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.main-header {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-size: 30px;
+}
+
+.btn:hover {
+  background-color: #f4623a !important;
+}
+
+.shape {
+  height: 5px;
+  width: 50px;
+}
+
+.portfolio-image {
+  width: 33.333%;
+}
+.form {
+  width: 50%;
+}
+
+@media (max-width: 550px) {
+  .portfolio-image {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+}
